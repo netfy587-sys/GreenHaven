@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GreenHaven - Simple Ways to Make Your Home Greener</title>
+<meta name="description" content="Practical, honest tips to save energy, water and waste at home. Pick a path, follow a guide and make small changes that actually add up.">
+<meta name="keywords" content="Explore New Possibilities, Your Choice Your Way, Find Something Better, Make Every Click Count, Ready to Discover More, Discover Your Next Pick, Your Search Ends Here">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="googlebot" content="index, follow">
+<style>
+:root{--ink:#0f2a1d;--moss:#1f5c3a;--leaf:#3f9b5f;--lime:#c9f26b;--cream:#f7f3e8;--sand:#ece5d0;--clay:#e8744a;--line:#0f2a1d}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Georgia,"Times New Roman",serif;background:var(--cream);color:var(--ink);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{width:100%;max-width:1480px;margin:0 auto;padding:0 40px}
+header{border-bottom:2px solid var(--line);position:sticky;top:0;background:var(--cream);z-index:10}
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font-family:"Trebuchet MS",Arial,sans-serif;font-weight:800;font-size:22px}
+.logo i{width:30px;height:30px;background:var(--moss);border-radius:0 70% 0 70%;display:block}
+nav a{font-family:"Trebuchet MS",Arial,sans-serif;font-size:14px;font-weight:700;margin-left:22px;padding:6px 0;border-bottom:2px solid transparent}
+nav a:hover{border-color:var(--clay)}
+.hero{padding:70px 0 60px}
+.hero .wrap{display:grid;grid-template-columns:1.25fr 1fr;gap:60px;align-items:center}
+.tag{display:inline-block;background:var(--lime);border:2px solid var(--line);padding:4px 14px;font-family:"Trebuchet MS",Arial,sans-serif;font-weight:800;font-size:13px;text-transform:uppercase;letter-spacing:1px;margin-bottom:22px}
+h1{font-size:clamp(38px,5.5vw,80px);line-height:1.02;letter-spacing:-2px}
+h1 em{color:var(--moss)}
+.hero p{font-size:20px;max-width:640px;margin-top:24px}
+.stack{position:relative;height:430px}
+.slip{position:absolute;left:0;right:0;border:2px solid var(--line);padding:22px 26px;background:#fff;box-shadow:8px 8px 0 var(--line);transition:transform .25s}
+.slip b{display:block;font-family:"Trebuchet MS",Arial,sans-serif;font-size:13px;text-transform:uppercase;letter-spacing:1px;color:var(--moss)}
+.slip span{font-size:24px;font-weight:700;display:block;margin-top:4px}
+.slip small{font-family:"Trebuchet MS",Arial,sans-serif;display:block;margin-top:8px;font-size:14px;color:#456}
+.s1{top:0;transform:rotate(-2deg);background:var(--lime)}
+.s2{top:140px;transform:rotate(1.5deg);margin-left:40px}
+.s3{top:285px;transform:rotate(-1deg);background:var(--sand);margin-right:30px}
+.slip:hover{transform:rotate(0) translateY(-6px)}
+.facts{background:var(--ink);color:var(--cream);border-block:2px solid var(--line)}
+.facts .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;padding-top:34px;padding-bottom:34px}
+.facts strong{display:block;font-family:"Trebuchet MS",Arial,sans-serif;font-size:30px;color:var(--lime);line-height:1.1}
+.facts span{font-size:15px}
+section{padding:80px 0;border-bottom:2px solid var(--line)}
+.head{display:grid;grid-template-columns:200px 1fr;gap:30px;margin-bottom:44px;align-items:start}
+.num{font-family:"Trebuchet MS",Arial,sans-serif;font-size:90px;font-weight:900;line-height:.9;color:transparent;-webkit-text-stroke:2px var(--moss)}
+h2{font-size:clamp(30px,4vw,54px);line-height:1.05;letter-spacing:-1px}
+.head p{margin-top:12px;font-size:18px;max-width:780px}
+.rows a{display:grid;grid-template-columns:60px 1fr 1.7fr 150px;gap:24px;align-items:center;padding:26px 14px;border-top:2px solid var(--line);transition:.25s}
+.rows a:last-child{border-bottom:2px solid var(--line)}
+.rows a:hover{background:var(--lime);padding-left:30px}
+.rows .n{font-family:"Trebuchet MS",Arial,sans-serif;font-weight:900;color:var(--clay);font-size:20px}
+.rows h3{font-size:25px}
+.rows p{font-size:16px}
+.go{font-family:"Trebuchet MS",Arial,sans-serif;font-weight:800;font-size:13px;text-align:right;text-transform:uppercase;letter-spacing:1px}
+.lanes{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;align-items:start}
+.lane{border:2px solid var(--line);background:#fff;padding:30px}
+.lane:nth-child(2){margin-top:40px;background:var(--sand)}
+.lane:nth-child(3){margin-top:80px;background:var(--lime)}
+.lane h3{font-size:25px;margin-bottom:8px}
+.lane ul{list-style:none;margin:16px 0 22px}
+.lane li{padding:9px 0;border-bottom:1px dashed var(--moss);font-family:"Trebuchet MS",Arial,sans-serif;font-size:15px}
+.btn{display:inline-block;background:var(--ink);color:var(--cream);font-family:"Trebuchet MS",Arial,sans-serif;font-weight:800;padding:13px 24px;border:2px solid var(--line);box-shadow:5px 5px 0 var(--clay);transition:.2s;font-size:15px}
+.btn:hover{transform:translate(3px,3px);box-shadow:2px 2px 0 var(--clay)}
+.swap{border:2px solid var(--line);background:#fff}
+.swap .r{display:grid;grid-template-columns:1fr 1fr 1.4fr;border-top:2px solid var(--line)}
+.swap .r:first-child{border-top:0;background:var(--moss);color:var(--cream);font-family:"Trebuchet MS",Arial,sans-serif;font-weight:800;text-transform:uppercase;font-size:13px;letter-spacing:1px}
+.swap .r div{padding:18px 24px;font-size:17px}
+.swap .r div+div{border-left:2px solid var(--line)}
+.swap .r:nth-child(even):not(:first-child){background:var(--sand)}
+.habits{display:grid;grid-template-columns:repeat(4,1fr);border:2px solid var(--line)}
+.habits div{padding:30px;border-right:2px solid var(--line);background:#fff}
+.habits div:last-child{border:0}
+.habits strong{font-family:"Trebuchet MS",Arial,sans-serif;font-size:44px;color:var(--leaf);display:block}
+.habits h3{font-size:21px;margin:6px 0}
+.habits p{font-size:15px}
+.cta{background:var(--moss);color:var(--cream);text-align:center}
+.cta .head,.final .head{display:block}
+.cta h2{color:var(--lime)}
+.cta .head p,.final .head p{margin:14px auto 0}
+.big{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:20px}
+.big a{display:block;border:2px solid var(--cream);padding:42px 20px;font-size:25px;font-weight:700;transition:.25s}
+.big a small{display:block;font-family:"Trebuchet MS",Arial,sans-serif;font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--lime);margin-top:6px}
+.big a:hover{background:var(--lime);color:var(--ink);transform:translateY(-6px)}
+.big a:hover small{color:var(--moss)}
+.notes{columns:4;column-gap:24px}
+.note{break-inside:avoid;border:2px solid var(--line);padding:24px;margin-bottom:24px;background:#fff;box-shadow:6px 6px 0 var(--line)}
+.note:nth-child(2n){background:var(--lime)}
+.note:nth-child(3n){background:var(--sand)}
+.note h3{font-size:21px;margin-bottom:8px}
+.note p{font-size:15px;margin-bottom:14px}
+.note a{font-family:"Trebuchet MS",Arial,sans-serif;font-weight:800;font-size:13px;text-transform:uppercase;letter-spacing:1px;border-bottom:2px solid var(--clay)}
+.final{text-align:center;border-bottom:0}
+.final .head p{margin-bottom:30px}
+.note-small{font-family:"Trebuchet MS",Arial,sans-serif;font-size:13px;color:#456;max-width:760px;margin:30px auto 0}
+footer{background:var(--ink);color:var(--cream);padding:40px 0;font-family:"Trebuchet MS",Arial,sans-serif;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px}
+@media(max-width:1000px){.hero .wrap,.lanes,.habits,.big,.facts .wrap{grid-template-columns:1fr}.head{grid-template-columns:1fr}.num{font-size:60px}.rows a{grid-template-columns:50px 1fr;gap:8px}.rows p,.go{grid-column:2;text-align:left}.lane:nth-child(n){margin-top:0}.notes{columns:2}.habits div{border-right:0;border-bottom:2px solid var(--line)}.swap .r{grid-template-columns:1fr}.swap .r div+div{border-left:0}nav{display:none}}
+@media(max-width:600px){.wrap{padding:0 20px}.notes{columns:1}.stack{height:450px}.s2{margin-left:10px}.s3{margin-right:0}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="wrap">
+<a class="logo" href="#top"><i></i>GreenHaven</a>
+<nav><a href="#explore">Areas</a><a href="#choose">Plans</a><a href="#better">Swaps</a><a href="#picks">Guides</a></nav>
+</div>
+</header>
+
+<main id="top">
+
+<div class="hero">
+<div class="wrap">
+<div>
+<span class="tag">Green home guide</span>
+<h1>A greener home starts with <em>small, honest habits.</em></h1>
+<p>GreenHaven is a simple guide to saving energy, water and waste at home. No hype and no expensive gadgets, only practical steps that make sense. Choose a topic below and open the guide that fits you.</p>
+</div>
+<div class="stack">
+<!-- Replace each href="#" with your own link -->
+<a class="slip s1" href="#"><b>Start here</b><span>Home energy basics</span><small>Lighting, standby power and heating or cooling</small></a>
+<a class="slip s2" href="#"><b>Most useful</b><span>Cut water waste</span><small>Leaks, showers, laundry and the kitchen tap</small></a>
+<a class="slip s3" href="#"><b>Easy win</b><span>Waste and composting</span><small>Sort better, throw away less</small></a>
+</div>
+</div>
+</div>
+
+<div class="facts">
+<div class="wrap">
+<div><strong>Up to 75%</strong><span>less electricity used by LED bulbs than old incandescent bulbs</span></div>
+<div><strong>About 1/3</strong><span>of food made for people is lost or wasted worldwide (FAO)</span></div>
+<div><strong>Most</strong><span>of a washing machine's energy goes into heating the water</span></div>
+<div><strong>Methane</strong><span>is released when food scraps rot in landfill without air</span></div>
+</div>
+</div>
+
+<section id="explore">
+<div class="wrap">
+<div class="head"><div class="num">01</div><div>
+<h2>Explore New Possibilities</h2>
+<p>A green home is not one big project. It is five small areas, and each one has easy first steps.</p></div></div>
+<div class="rows">
+<a href="#"><span class="n">A</span><h3>Energy</h3><p>Switch to LED lighting, switch off devices on standby and use fans and thermostats sensibly.</p><span class="go">Open guide &rarr;</span></a>
+<a href="#"><span class="n">B</span><h3>Water</h3><p>Fix dripping taps and running toilets, take shorter showers and run washing machines with full loads.</p><span class="go">Open guide &rarr;</span></a>
+<a href="#"><span class="n">C</span><h3>Waste</h3><p>Reuse, repair and recycle correctly. Rinse containers and follow your local collection rules.</p><span class="go">Open guide &rarr;</span></a>
+<a href="#"><span class="n">D</span><h3>Food</h3><p>Plan meals, store food well, use leftovers and compost scraps instead of binning them.</p><span class="go">Open guide &rarr;</span></a>
+<a href="#"><span class="n">E</span><h3>Air and plants</h3><p>Open windows to ventilate, keep indoor air fresh and add plants for greenery and mood.</p><span class="go">Open guide &rarr;</span></a>
+</div>
+</div>
+</section>
+
+<section id="choose">
+<div class="wrap">
+<div class="head"><div class="num">02</div><div>
+<h2>Your Choice, Your Way</h2>
+<p>You do not need to do everything. Pick the plan that matches the time and budget you have right now.</p></div></div>
+<div class="lanes">
+<div class="lane"><h3>Today, 10 minutes</h3><p>Free changes you can make now.</p><ul><li>Unplug chargers you are not using</li><li>Check taps for drips</li><li>Set up a recycling box</li></ul><a class="btn" href="#">See the quick plan</a></div>
+<div class="lane"><h3>This weekend</h3><p>A little effort, noticeable results.</p><ul><li>Replace old bulbs with LEDs</li><li>Plan the week's meals</li><li>Start a small compost bin</li></ul><a class="btn" href="#">See the weekend plan</a></div>
+<div class="lane"><h3>This year</h3><p>Bigger choices, made with care.</p><ul><li>Choose energy-rated appliances</li><li>Improve insulation or shading</li><li>Repair before replacing</li></ul><a class="btn" href="#">See the long plan</a></div>
+</div>
+</div>
+</section>
+
+<section id="better">
+<div class="wrap">
+<div class="head"><div class="num">03</div><div>
+<h2>Find Something Better</h2>
+<p>Many greener choices are simply smarter versions of what you already do.</p></div></div>
+<div class="swap">
+<div class="r"><div>Instead of</div><div>Try</div><div>Why it helps</div></div>
+<div class="r"><div>Hot-water laundry</div><div>Cooler wash cycles</div><div>Heating water is where most washing energy goes.</div></div>
+<div class="r"><div>Leaving devices on standby</div><div>A switchable power strip</div><div>Standby devices keep drawing small amounts of power.</div></div>
+<div class="r"><div>Throwing away leftovers</div><div>Planned meals and storage</div><div>Less wasted food means less wasted money and resources.</div></div>
+<div class="r"><div>Buying new straight away</div><div>Repairing or borrowing</div><div>Making a product takes materials and energy.</div></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="head"><div class="num">04</div><div>
+<h2>Make Every Click Count</h2>
+<p>At GreenHaven we believe the greenest product is often the one you already own. Before you buy or follow any green tip online, run these four checks.</p></div></div>
+<div class="habits">
+<div><strong>1</strong><h3>Do I need it?</h3><p>Use what you have first. Buying less is the simplest saving.</p></div>
+<div><strong>2</strong><h3>Is there proof?</h3><p>Look for clear numbers, ratings or certifications, not vague claims like "eco".</p></div>
+<div><strong>3</strong><h3>Will it last?</h3><p>Durable, repairable items usually beat cheap ones replaced often.</p></div>
+<div><strong>4</strong><h3>Can I keep doing it?</h3><p>A small habit you stick with beats a big change you drop.</p></div>
+</div>
+</div>
+</section>
+
+<section class="cta">
+<div class="wrap">
+<div class="head">
+<h2>Ready to Discover More?</h2>
+<p>Go deeper with a full guide. Choose the one that fits where you are today.</p></div>
+<div class="big">
+<a href="#">Beginner's checklist<small>Main link</small></a>
+<a href="#">Save money at home<small>Second link</small></a>
+<a href="#">Reduce waste<small>Third link</small></a>
+</div>
+</div>
+</section>
+
+<section id="picks">
+<div class="wrap">
+<div class="head"><div class="num">05</div><div>
+<h2>Discover Your Next Pick</h2>
+<p>Short guides to read next. Each note links to one topic, so you always know what you are opening.</p></div></div>
+<div class="notes">
+<div class="note"><h3>Home energy check</h3><p>Walk through each room and spot easy energy savings.</p><a href="#">Read guide</a></div>
+<div class="note"><h3>Water leak hunt</h3><p>Find hidden leaks with a simple meter and dye test.</p><a href="#">Read guide</a></div>
+<div class="note"><h3>Composting basics</h3><p>What to add, what to avoid and how to keep it odour-free.</p><a href="#">Read guide</a></div>
+<div class="note"><h3>Recycling right</h3><p>Why clean, sorted items matter and what often cannot be recycled.</p><a href="#">Read guide</a></div>
+<div class="note"><h3>Plants at home</h3><p>Easy houseplants. They lift the mood but do not replace fresh air.</p><a href="#">Read guide</a></div>
+<div class="note"><h3>Smart kitchen habits</h3><p>Store food better and cut daily waste.</p><a href="#">Read guide</a></div>
+<div class="note"><h3>Cooling without waste</h3><p>Shade, airflow and sensible thermostat settings in hot weather.</p><a href="#">Read guide</a></div>
+<div class="note"><h3>Repair before replace</h3><p>Common fixes that extend the life of what you own.</p><a href="#">Read guide</a></div>
+</div>
+</div>
+</section>
+
+<section class="final">
+<div class="wrap">
+<div class="head">
+<h2>Your Search Ends Here</h2>
+<p>Start with one small change this week. Pick a guide, try one step and build from there.</p></div>
+<a class="btn" href="#">Open the full guide</a>
+<p class="note-small">General information for everyday home use. Savings vary by home, climate and local services, so check local rules for recycling and water.</p>
+</div>
+</section>
+
+</main>
+
+<footer>
+<div class="wrap"><span>&copy; 2026 GreenHaven. All rights reserved.</span><span>Small habits, greener homes.</span></div>
+</footer>
+
+</body>
+</html>
